@@ -1,0 +1,15 @@
+{
+  "name": "richi-proxy-final",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "richi-proxy.js",
+  "scripts": {
+    "start": "node richi-proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
