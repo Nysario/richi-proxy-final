@@ -1,0 +1,14 @@
+{
+  "name": "richi-proxy-final",
+  "version": "1.0.0",
+  "description": "Chat proxy pentru OpenAI GPT-4o, protejeaz\u0103 cheia \u0219i permite comunicarea prin /chat",
+  "main": "richi-proxy.js",
+  "type": "module",
+  "scripts": {
+    "start": "node richi-proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.26.0"
+  }
+}
